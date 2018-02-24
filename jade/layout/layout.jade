@@ -1,0 +1,18 @@
+doctype html
+html(lan="en")
+	head
+		include metas.jade
+		include styles.jade
+		include fonts.jade
+         
+		block title
+
+	body
+		section#description_site.d-flex.flex-column.justify-content-center.align-items-center
+			block content
+			include form_subscribe.jade
+			include social_media.jade
+ 
+		
+		include copyright.jade
+		include scripts.jade
